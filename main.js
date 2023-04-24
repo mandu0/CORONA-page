@@ -44,7 +44,7 @@
         }, 10);
     };
 
-    const getTodayData = async () => (await (await fetch(`http://apis.data.go.kr/1790387/covid19CurrentStatusKorea/covid19CurrentStatusKoreaJason?serviceKey=${API_KEY}`)).json()).response.result[0];
+    const getTodayData = async () => (await (await fetch(`https://apis.data.go.kr/1790387/covid19CurrentStatusKorea/covid19CurrentStatusKoreaJason?serviceKey=${API_KEY}`)).json()).response.result[0];
 
     const todayData = await getTodayData();
 
