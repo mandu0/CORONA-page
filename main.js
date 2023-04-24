@@ -98,7 +98,7 @@
     thisTime.innerText = `(${todayData.mmddhh} 기준, 단위: 명 )`;
 
 
-    const getBedsideData = async () => (await (await fetch(`http://apis.data.go.kr/1790387/covid19HospitalBedStatus/covid19HospitalBedStatusJson?servicekey=${BEDSIDE_API_KEY}`)).json()).response.result[0];
+    const getBedsideData = async () => (await (await fetch(`https://apis.data.go.kr/1790387/covid19HospitalBedStatus/covid19HospitalBedStatusJson?servicekey=${BEDSIDE_API_KEY}`)).json()).response.result[0];
 
     const bedsideData = await getBedsideData();
 
