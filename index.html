@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>코로나 국내 발생 현황</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="main_header">
+            <div class="main_left">
+                <h1>COVID-19 <span>코로나 19 국내 발생 현황</span></h1>
+            </div>
+            <div class="main_nav">
+                <a href="https://www.facebook.com/koreadca"><img src="img/free-icon-facebook-145802.png" alt="페이스북"></a>
+                <a href="https://twitter.com/koreadca"><img src="img/free-icon-twitter-145812.png" alt="트위터"></a>
+                <a href="https://www.youtube.com/channel/UCa7-3Zvxg-5Rfxgu3RQY_gw"><img src="img/free-icon-youtube-3670147.png" alt="유튜브"></a>
+            </div>
+        </div>
+        <div class="main_time">
+            <p class="sub_this_time">
+        </div>
+        <div class="li_next">
+            <div class="next next1">
+                <a href="https://www.safetyreport.go.kr/api?apiKey=135200000RIT6SJUZ0TTF3T2FD9" target="_blank" title="새창">코로나19 국민제안 ></a>
+            </div>
+            <div class="next next2">
+                <a href="https://ncov.kdca.go.kr/static/pclinic5.html" target="_blank" title="새창">호흡기환자진료센터 ></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="now_main_container">
+            <h2 class="current_state current_animation">코로나19 발생현황</h2>
+            <h2 class="this_time"></h2>
+            <div class="main_wrap">
+                <div class="main_19">
+                    <span>일일 확진자</span>
+                    <p class="today_19"></p>
+                </div>
+                <div class="main_19">
+                    <span>사망자</span>
+                    <p class="today_dead"></p>
+                </div>
+                <div class="main_19">
+                    <span>재원 위중증 환자</span>
+                    <p class="today_patient"></p>
+                </div>
+                <div class="main_19">
+                    <span>신규입원</span>
+                    <p class="today_hospitalization"></p>
+                </div>
+            </div>
+            <img class="corona_png" src="img/corona.jpg" alt="코로나 이미지">
+        </div> 
+        <div class="sickbed_main_container">
+            <h2 class="current_state2 current_animation">코로나19 병상현황</h2>
+            <h2 class="sickbed_time"></h2>
+            <div class="ciritical">
+                <img src="img/corona.jpeg" class="corona_img img_slide" alt="코로나 관련 이미지">
+                <div class="ciritical_wrap">
+                    <h3 class="ciritical_slide">중환자 <br> 병상현황</h3>
+                    <div class="main_sickbed ciritical_slide">
+                        <span>중환자 병상 가동률</span>
+                        <p class="critical_work critical_css"></p>
+                    </div>
+                    <div class="main_sickbed ciritical_slide">
+                        <span>중환자 보유 병상수</span>
+                        <p class="critical_possession critical_css"></p>
+                    </div>
+                    <div class="main_sickbed ciritical_slide">
+                        <span>중환자 가용 병상수</span>
+                        <p class="critical_availability critical_css" ></p>
+                    </div>
+                </div>
+            </div>
+            <div class="general">
+                <img src="img/corona2.jpeg" class="corona2_img img_slide" alt="코로나 관련 이미지">
+                <div class="general_wrap">
+                    <h3 class="ciritical_left_slide">일반 <br> 병상현황</h3>
+                    <div class="main_general ciritical_left_slide">
+                        <span>일반 병상 가동률</span>
+                        <p class="general_work critical_css"></p>
+                    </div>
+                    <div class="main_general ciritical_left_slide">
+                        <span>일반 보유 병상수</span>
+                        <p class="general_possession critical_css"></p>
+                    </div>
+                    <div class="main_general ciritical_left_slide">
+                        <span>일반 가용 병상수</span>
+                        <p class="general_availability critical_css"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_container">
+            <ul class="footer_ul">
+                <li class="tel_li tel"><a href="tel:1339">질병관리청 콜센터 1339</a></li>
+                <li class="tel_li">지역번호 + 120</li>
+                <li class="tel_li">지역번호 + 114</li>
+            </ul>
+            <div class="copyright_container">
+                <p>Copyright ⓒ By MINJU. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
